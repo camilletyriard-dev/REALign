@@ -1,4 +1,4 @@
-# REAL Bench v1, corrected task set
+# REALign: REAL Bench v1, corrected task set
 
 The 112 task definitions from [REAL Bench](https://github.com/agi-inc/agisdk) v1
 with 32 defective ones repaired. Drop-in replacement for the task JSONs shipped
