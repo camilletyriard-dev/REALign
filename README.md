@@ -41,8 +41,8 @@ ones on disk.
 ## Use
 
 ```bash
-git clone https://github.com/<you>/real-v1-corrected.git
-cd real-v1-corrected
+git clone https://github.com/camilletyriard-dev/REALign.git
+cd REALign
 python apply.py --dry-run     # show what would change
 python apply.py               # write into the installed agisdk, keeping a backup
 ```
