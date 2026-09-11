@@ -140,6 +140,10 @@ companion code repository [sigi-web](https://github.com/camilletyriard-dev/sigi-
 same corrections at load time, and recognises this set when it has been installed
 with `apply.py`, so the two can be used together or apart.
 
+## Citation
+
+Camille Tyriard, Zekun Wu and Maria Perez-Ortiz; see `CITATION.cff`.
+
 ## License
 
 Task content is from `agisdk`, Copyright 2025 AGI, Inc., Apache License 2.0.

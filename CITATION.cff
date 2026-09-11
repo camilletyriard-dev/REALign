@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this corrected task set, please cite it as below."
+title: "REALign: REAL Bench v1, corrected task set"
+authors:
+  - family-names: Tyriard
+    given-names: Camille
+    affiliation: "University College London"
+  - family-names: Wu
+    given-names: Zekun
+    affiliation: "Holistic AI"
+  - family-names: Perez-Ortiz
+    given-names: Maria
+    affiliation: "University College London"
+date-released: 2026-09-11
+url: "https://github.com/camilletyriard-dev/REALign"
+license: Apache-2.0
