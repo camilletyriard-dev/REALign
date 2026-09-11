@@ -308,7 +308,7 @@ Corrections only ever rewrite an existing field. No task, eval, or eval criterio
 **evals[0].query**
 
 - before: `messagesDiff.added."0".type`
-- after: ``length(messagesDiff.updated.* | [?lastMessage != ''] || `[]`) > `0` || length(messagesDiff.added.* | [?lastMessage != ''] || `[]`) > `0` ``
+- after: `length(messagesDiff.updated.* \| [?lastMessage != ''] \|\| `[]`) > `0` \|\| length(messagesDiff.added.* \| [?lastMessage != ''] \|\| `[]`) > `0``
 
 **evals[0].expected_value**
 
@@ -340,7 +340,7 @@ Corrections only ever rewrite an existing field. No task, eval, or eval criterio
 **evals[0].query**
 
 - before: `differences.messagesDiff.added[0].type`
-- after: ``length(messagesDiff.updated.* | [?lastMessage != ''] || `[]`) > `0` || length(messagesDiff.added.* | [?lastMessage != ''] || `[]`) > `0` ``
+- after: `length(messagesDiff.updated.* \| [?lastMessage != ''] \|\| `[]`) > `0` \|\| length(messagesDiff.added.* \| [?lastMessage != ''] \|\| `[]`) > `0``
 
 **evals[0].expected_value**
 

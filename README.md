@@ -131,6 +131,15 @@ host and a defective scoring artefact are separate faults, so the fix stands
 whether or not you choose to run the site, and it is the right one the day
 the host is repaired.
 
+## Provenance
+
+This set is generated, not hand-edited. The corrections live as data in the
+companion code repository [sigi-web](https://github.com/camilletyriard-dev/sigi-web)
+(`configs/tasks/*.yaml`), and its `export_corrected_dataset.py` writes `tasks/`,
+`CHANGES.md` and `corrections.json` from them. That repository also applies the
+same corrections at load time, and recognises this set when it has been installed
+with `apply.py`, so the two can be used together or apart.
+
 ## License
 
 Task content is from `agisdk`, Copyright 2025 AGI, Inc., Apache License 2.0.
